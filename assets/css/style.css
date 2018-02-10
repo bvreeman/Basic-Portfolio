@@ -1,4 +1,11 @@
 body {
+    background-image: img("./assets/images/light-veneer/light-veneer/light-veneer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 
+}
 
+img {
+    width: 260px;
+    height: auto;
 }
