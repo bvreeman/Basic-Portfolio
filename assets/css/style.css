@@ -1,6 +1,13 @@
+header {
+
+        flex-direction: row;
+        justify-content: space-between;
+     
+}
+
 body {
-    background-color: yellow;
-    background-image: url();
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 img {
@@ -22,7 +29,7 @@ footer {
     background-color: #666666;
     border-top-style: solid;
     border-top-color: #4aaaa5;
-    border-top-width: 2px;
+    border-top-width: 5px;
 }
 
 .image { 
@@ -30,7 +37,7 @@ footer {
     width: 100%; /* for IE 6 */
  }
  
- .portfolio_h2 { 
+ .portfolio h2 { 
     position: absolute; 
     top: 300px; 
     left: 0px; 
@@ -45,3 +52,5 @@ footer {
     background: #4aaaa5;
     padding: 10px 80px; 
  }
+
+ 
