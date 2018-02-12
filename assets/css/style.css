@@ -1,9 +1,17 @@
 header {
-    max-width: 960px;
-    margin: 0 auto;
     background-color: #ffffff;
     flex-direction: row;
-     
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;  
+}
+
+.headercontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header h1 span{
@@ -11,12 +19,11 @@ header h1 span{
     color: #ffffff;
     padding: 15px 15px 15px 15px;
     text-align: center;
-    margin: 25px 0px 0px 0px;
 }
 
 nav {
-    display: inline-block;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     background: #ffffff;
     height: 20px;
   
@@ -30,6 +37,9 @@ body {
 main {
     max-width: 960px;
     margin: 0 auto;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width:
 }
 
 img {
@@ -42,8 +52,17 @@ div {
 
 }
 
+p {
+    color: #777777;
+}
+
+.socialbox a {
+    font-size: 25px;
+}
+
 li {
     list-style: none;
+    display: inline-block;
 }
 
 footer {
@@ -75,5 +94,6 @@ footer {
     background: #4aaaa5;
     padding: 10px 80px; 
  }
+
 
  
