@@ -1,11 +1,33 @@
 header {
-
-        flex-direction: row;
-        justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    flex-direction: row;
      
 }
 
+header h1 span{
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+nav {
+    display: inline-block;
+    display: inline;
+    background: #ffffff;
+    height: 20px;
+  
+  }
+
 body {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);     
+    border-color:#4aaaa5;
+}
+
+main {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -25,6 +47,7 @@ li {
 }
 
 footer {
+    width: 100%;
     text-align: center;
     background-color: #666666;
     border-top-style: solid;
