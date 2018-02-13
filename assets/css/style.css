@@ -26,7 +26,7 @@ header {
 header h1 span{
     background: #4aaaa5;
     color: #ffffff;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 20px 15px;
     text-align: center;
 }
 
@@ -36,11 +36,14 @@ nav {
     background: #ffffff;
     height: 20px;
     font-size: 25px;
+    content: #777777;
 }
 
 body {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);     
     border-color:#4aaaa5;
+    padding-bottom: 75px;
+    height: 100%;
 }
 
 main {
@@ -57,6 +60,11 @@ main {
     padding: 20px;
 }
 
+.mainleft img {
+    width: 260px;
+    height: auto;
+}
+
 .mainright {
     border-style: solid;
     border-color: #dddddd;
@@ -69,17 +77,23 @@ main {
 
 }
 
-.socialicons li {
+.socialicons a {
     font-size: 60px;
+    padding: 20px 0 0 0;
 }
 
-img {
-    width: 260px;
-    height: auto;
-}
+
 
 div {
 
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #777777;
 }
 
 p {
@@ -100,6 +114,8 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 5px;
     height: 75px;
+    position: absolute;
+    bottom: 0;
     
 }
 
