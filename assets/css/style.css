@@ -12,6 +12,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+}
+
+.maincontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header h1 span{
@@ -26,8 +35,8 @@ nav {
     justify-content: space-between;
     background: #ffffff;
     height: 20px;
-  
-  }
+    font-size: 25px;
+}
 
 body {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);     
@@ -35,11 +44,33 @@ body {
 }
 
 main {
-    max-width: 960px;
-    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainleft {
     border-style: solid;
     border-color: #dddddd;
-    border-width:
+    border-width: 2px;
+    max-width: 650px;
+    background-color: #ffffff;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+}
+
+.mainright {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    max-width: 270px;
+    background-color: #ffffff;
+    max-height: 175px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+
+}
+
+.socialicons li {
+    font-size: 50px;
 }
 
 img {
@@ -48,16 +79,11 @@ img {
 }
 
 div {
-    background-color: #ffffff;
 
 }
 
 p {
     color: #777777;
-}
-
-.socialbox a {
-    font-size: 25px;
 }
 
 li {
@@ -86,14 +112,10 @@ footer {
     width: 100%; 
  }
 
- h2 span { 
-    color: #ffffff; 
-    font: bold 24px/45px 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-    letter-spacing: -1px;  
-    background: #4aaaa5; /* fallback color */
-    background: #4aaaa5;
-    padding: 10px 80px; 
- }
+ h1 h2 h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
 
 
  
