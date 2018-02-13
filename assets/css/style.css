@@ -70,7 +70,7 @@ main {
 }
 
 .socialicons li {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 img {
@@ -95,9 +95,16 @@ footer {
     width: 100%;
     text-align: center;
     background-color: #666666;
+    color: #ffffff;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 5px;
+    height: 75px;
+    
+}
+
+footer span {
+    vertical-align: middle;
 }
 
 .image { 
@@ -112,10 +119,23 @@ footer {
     width: 100%; 
  }
 
- h1 h2 h3 {
+h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color:#4aaaa5;
 }
 
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
 
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
+
+.myphoto {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
  
