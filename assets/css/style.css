@@ -35,7 +35,7 @@ nav {
     justify-content: space-between;
     background: #ffffff;
     height: 20px;
-    font-size: 25px;
+    font-size: 20px;
     content: #777777;
 }
 
@@ -82,7 +82,10 @@ main {
     padding: 20px 0 0 0;
 }
 
-
+li.border {
+    border-right: 2px solid #777777;
+    padding: 5px;
+}
 
 div {
 
@@ -123,9 +126,10 @@ footer span {
     vertical-align: middle;
 }
 
-.image { 
+.portfolioimages { 
     position: relative; 
-    width: 100%; /* for IE 6 */
+    width: auto;
+    height: 100px;
  }
  
  .portfolio h2 { 
@@ -154,4 +158,15 @@ h3 {
     float: left;
     margin: 0px 15px 0px 0px;
 }
- 
+
+textarea {
+    width: 600px;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+}
+

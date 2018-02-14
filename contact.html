@@ -18,50 +18,57 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>  
-        <h1>Brandon Vreeman</h1>
-        
+    <header> 
+        <div class='headercontainer'> 
+            <h1><span>Brandon Vreeman</span></h1>                    
+            <nav>    
+                <ul>
+                    <li class="border"><a href="index.html">About</a></li>
+                    <li class="border"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>         
+            </nav>
         </div>
-        <nav>    
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>         
-        </nav>
-        
     </header>
 
     <main>
         
-        <div>
-            <form action="/action_page.php">
-                Name:<br>
-                <input type="text" name="fullname" value="">
-                <br>
-                Email:<br>
-                <input type="text" name="email" value="">
-                <br>
-                Message:<br>
-                <textarea rows="20" cols="100px"></textarea>
-                <br><br>
-                <input type="submit" value="Submit">
-            </form> 
-        </div>
+        <div class="maincontainer">
+            <div class="mainleft">
+                <form action="/action_page.php">
+                    Name:<br>
+                    <input type="text" name="fullname" value="">
+                    <br>
+                    Email:<br>
+                    <input type="text" name="email" value="">
+                    <br>
+                    Message:<br>
+                    <textarea></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form> 
+            </div>
 
-        <div>
-            <h2>Connect with Me</h2>
-            <ul>
-                <li><a href="#"><i class="fab fa-github-square"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
-            </ul>
-        </div>
-              
+            <div class="mainright">
+                <div class="socialicons">
+                    <h2>Connect with Me</h2>
+                    <hr />
+                    <a href="https://github.com">
+                    <img src="./assets/images/github.png" alt="Go to Github" width="60" height="60" border="0">
+                    </a>
+                    <a href="https://linkedin.com/">
+                    <img src="./assets/images/linkedin.png" width="60" height="60" border="0" alt="Go to LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/">
+                    <img src="./assets/images/stack_overflow.png" alt="Go to Stack Overflow" width="60" height="60" border="0">
+                    </a>
+                </div>
+            </div>
+        </div>      
     </main>
 
     <footer>
-        <p>© Copyright 2018 Brandon Vreeman</p>
+            <p><span>© Copyright 2018 Brandon Vreeman</span></p>
     </footer>
 </body>
 </html>
