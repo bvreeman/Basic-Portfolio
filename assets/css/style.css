@@ -37,13 +37,12 @@ nav {
     background: #ffffff;
     height: 20px;
     font-size: 20px;
-    content: #777777;
+    color: #777777;
 }
 
 body {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);     
     border-color:#4aaaa5;
-    padding-bottom: 75px;
 }
 
 main {
@@ -85,8 +84,10 @@ main {
 }
 
 .socialicons a {
+    clear: both;
     font-size: 60px;
     padding: 20px 0 0 0;
+    overflow: auto;
 }
 
 li.border {
@@ -111,7 +112,7 @@ nav a:visited {
 /* Footer CSS */
 
 footer {
-    width: 100%;
+    min-width: 100%;
     text-align: center;
     background-color: #666666;
     color: #ffffff;
@@ -119,7 +120,6 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 5px;
     height: 75px;
-    position: absolute;
     bottom: 0;
     
 }
@@ -133,16 +133,43 @@ footer span {
 .portfolioimages { 
     position: relative; 
     padding: 0px 40px 40px 0px;
+    min-height: 100%;
  }
  
  .portfolioheadings { 
     position: absolute;  
-    padding: 2px 0px 2px 0px;
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif; 
-    width: 100%;
+    width: 260px;
+    text-align: center;
+    margin-top: -85px;
+    height: 30px;
+    line-height: 45px;
+    font-size: 20px;
+    padding: 0px 0px 40px 0px;
+    opacity: 0.9;
  }
+
+.portfolioheadings1 {
+     padding: 20px;
+ }
+
+ .portfolioheadings2 {
+    padding: 20px;
+}
+
+.portfolioheadings3 {
+    padding: 20px;
+}
+
+.portfolioheadings4 {
+    padding: 20px;
+}
+
+.portfolioheadings5 {
+    padding: 20px;
+}
 
 /* CSS settings to format font and colors for words site wide */
 
