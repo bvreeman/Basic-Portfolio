@@ -130,6 +130,7 @@ footer span {
 
 /* Portfolio CSS for pictures with words on top */
 
+/*
 .portfolioimages { 
     position: relative; 
     padding: 0px 40px 40px 0px;
@@ -170,6 +171,32 @@ footer span {
 .portfolioheadings5 {
     padding: 20px;
 }
+
+*/
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 200px;
+	transition: transform .2s ease-out;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 25px;
+}
+
+.item-name {
+	position: relative;
+	top: -60px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 3px;
+	color: #ffffff;
+    z-index: 1000;
+    width: 255px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 
 /* CSS settings to format font and colors for words site wide */
 
